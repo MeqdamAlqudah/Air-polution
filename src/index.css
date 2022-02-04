@@ -13,10 +13,22 @@ body {
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
+  animation-name: opacity;
+  animation-duration: 5s;
 }
 
 a:link,
 a:visited {
   color: black;
   text-decoration: none;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
