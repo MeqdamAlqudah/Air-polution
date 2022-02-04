@@ -14,7 +14,8 @@ the air data in different countries.
 Live Deomo: [link](https://brave-dubinsky-944f96.netlify.app/)
 ## Getting Started
 
--not yet
+-Run the Live demo to see the project
+-or intall the project from the repo
 
 ### Setup
 
