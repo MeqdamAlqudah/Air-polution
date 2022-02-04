@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test countriesList test NavLink 1`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Test countriesList test NavLink 2`] = `
+<a
+  aria-current="page"
+  className="active"
+  href="/"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Test countriesList test country rendering  1`] = `
+<div
+  className="container"
+>
+  <div
+    className="worldMap"
+  >
+    <iframe
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen={true}
+      aria-controls="none"
+      frameBorder="0"
+      height="200"
+      src="https://www.youtube.com/embed/e6rglsLy1Ys"
+      title="YouTube video player"
+      width="200"
+    />
+  </div>
+  <h1
+    className="h1"
+  >
+    Air Polution
+  </h1>
+  <ul
+    className="ul"
+  >
+    <li
+      className="firstContinent"
+    >
+      <a
+        className=""
+        href="/Europe"
+        onClick={[Function]}
+      >
+        <img
+          alt="europ"
+          src="Europe.png"
+        />
+         
+        <span>
+          Europe
+        </span>
+        <p>
+          44 coutry
+        </p>
+      </a>
+    </li>
+    <li
+      className="secondContinent"
+    >
+      <a
+        className=""
+        href="/SouthAmerica"
+        onClick={[Function]}
+      >
+        <img
+          alt="South America"
+          src="SouthAmerica.png"
+        />
+        <span>
+          South America
+        </span>
+        <p>
+          12 coutry
+        </p>
+      </a>
+    </li>
+    <li
+      className="thirdContinent"
+    >
+      <a
+        className=""
+        href="/NorthAmerica"
+        onClick={[Function]}
+      >
+        <img
+          alt="North America"
+          src="NorthAmerica.png"
+        />
+        <span>
+          North America
+        </span>
+        <p>
+          23 coutry
+        </p>
+      </a>
+    </li>
+    <li
+      className="fourthContinent"
+    >
+      <a
+        className=""
+        href="/Oceania"
+        onClick={[Function]}
+      >
+        <img
+          alt="Oceania"
+          src="Oceania.png"
+        />
+        <span>
+          Oceania
+        </span>
+        <p>
+          14 coutry
+        </p>
+      </a>
+    </li>
+    <li
+      className="fifthContinent"
+    >
+      <a
+        className=""
+        href="/Asia"
+        onClick={[Function]}
+      >
+        <img
+          alt="Asia"
+          src="Asia.png"
+        />
+        <span>
+          Asia
+        </span>
+        <p>
+          48 coutry
+        </p>
+      </a>
+    </li>
+    <li
+      className="sixContinent"
+    >
+      <a
+        className=""
+        href="/Antarctica"
+        onClick={[Function]}
+      >
+        <img
+          alt="Antarctica"
+          src="Antarctica.png"
+        />
+        <span>
+          Antarctica
+        </span>
+        <p>
+          5 coutry
+        </p>
+      </a>
+    </li>
+    <li
+      className="sevenContinent"
+    >
+      <a
+        className=""
+        href="/Africa"
+        onClick={[Function]}
+      >
+        <img
+          alt="Africa"
+          src="Africa.png"
+        />
+        <span>
+          Africa
+        </span>
+        <p>
+           54coutry
+        </p>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
