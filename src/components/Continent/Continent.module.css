@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.worldMap {
+  width: 100%;
+  height: 10rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image:
+    url('../../Images/worldMap.png'),
+    linear-gradient(
+      #2d4573,
+      #2d4573
+    );
+}
+
+.worldMap iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.ul {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  text-decoration: none;
+  padding: 0;
+  gap: 1%;
+  margin: 0;
+  background-color: #2d4573;
+  width: 100%;
+  height: 51rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.ul li {
+  background-color: #5687e2;
+  width: 9.4rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.ul li a {
+  color: white;
+  padding: 3rem;
+}
+
+.ul li img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.ul li p {
+  margin: 0;
+}
+
+.firstContinent {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.secondContinent {
+  -ms-grid-column: 2;
+  -ms-grid-row: 1;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.thirdContinent {
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.fourthContinent {
+  -ms-grid-column: 2;
+  -ms-grid-row: 2;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.fifthContinent {
+  -ms-grid-column: 1;
+  -ms-grid-row: 3;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.sixContinent {
+  -ms-grid-column: 2;
+  -ms-grid-row: 3;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.sevenContinent {
+  -ms-grid-column: 1;
+  -ms-grid-row: 4;
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.h1 {
+  color: white;
+}
