@@ -21,7 +21,7 @@ const fetchCountriesMiddleware = (storeAPI) => (next) => (action) => {
     // Make an API call to fetch Book from the server
     fetch(url).then((response) => response.json()).then((el) => storeAPI.dispatch(getCountry(el)));
   } else if (action.type === getAirDataFromApi) {
-    const airUrl = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${action.lang[0]}&lon=${action.lang[1]}&appid=ef04f5820200d1d083520262be5c3e41`;
+    const airUrl = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${action.lang[0]}&lon=${action.lang[1]}&appid=ef04f5820200d1d083520262be5c3e41`;
     fetch(airUrl).then(
       (response) => {
         if (response.status === 429) {
